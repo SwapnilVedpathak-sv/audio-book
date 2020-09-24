@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    align-content: center;
+    width: fit-content;
+    padding: 2%;
+    margin: 1%;
+    background-color: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    color: red;
+}
+.Album div{
+    padding: 8%;
+}
+.Album{
+    padding: 21px 7px;
+    display: inline-block;
+    font-size: 18px;
+}
+#header{
+    text-align: center;
+    margin-top: 2%;
+}
+#favoriteBtn{
+    text-decoration: none;
+    color: black;
+}
+#downloadOption{
+    text-decoration: none;
+    margin-left: 2%;
+}
+#anotherDownloadBtn{
+    margin-left: 2%;
+}
+.AnchorTag{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.AnchorTag:hover{
+    color: dodgerblue;
+}
+#favBtn{
+    outline: none;
+    border: none;
+    padding: 1%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-radius: 5%;
+}
+#linkTag{
+    text-decoration: none;
+}
+.title div{
+    width: max-content;
+    padding: 4.6%;
+}
+.title{
+    display: inline-block;
+    margin-left: 75px;
+    font-size: 17px;
+}
+#description{
+    width: 51%;
+}
+#DescriptionText{
+    padding: 21px 0;
+    font-weight: 900;
+    font-size: 20px; 
+}
+.button{
+    padding: 10px;
+    margin: 4px;
+    margin-bottom: 2%;
+}
+#heart{
+    font-size:18px;
+    color:red;
+    margin-left: 1%;
+}
+.favButton{
+    margin: auto;
+    padding: 5px;
+    width: 114%;
+    font-size: 17px;
+}
+#buttonDiv{
+    display: inline-block;
+}
+#saveButtonDiv{
+    display: inline-block;
+}
+#anotherButtonDiv{
+    display: inline-block;
+}
+#anotherSaveButtonDiv{
+    display: inline-block;
+}
+.audio{
+    outline: none;
+}
+#Audio2{
+    outline: none;
+}
+#heading{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
+#firstMainDiv{
+    padding: 2%;
+    margin: 2%;
+    background-color: #f1f1f1;
+}
+#secondMainDiv{
+    padding: 2%;
+    margin: 2%;
+    background-color: #f1f1f1;
+}
+#firstTitle{
+    text-align: left;
+    font-size: 25px;
+    color: red;
+    padding: 1%;
+    margin: 1%;
+}
+#firstAudioTag{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+#firstButton{
+    margin-left: 1%;
+    padding-left: 1%;
+    font-size: 30px;
+}
+#secondTitle{
+    text-align: left;
+    font-size: 25px;
+    color: red;
+    padding: 1%;
+    margin: 1%;
+}
+#secondAudioTag{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+#secondButton{
+    margin-left: 1%;
+    padding-left: 1%;
+    font-size: 30px;
+}
+#secondDownloadBtn{
+    margin-left: 2%;
+}

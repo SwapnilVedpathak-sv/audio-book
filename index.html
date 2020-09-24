@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Audio Book</title>
+</head>
+
+<body>
+    <div id="header">
+        <button id="favBtn"><a href="favorite.html" target="_blank" id="linkTag">
+                <h4 id="favoriteBtn">My Favorite Songs</h4>
+            </a></button>
+    </div>
+
+    <!-------------------------------------- First Audio Section -------------------------------------->
+    <section>
+        <div class="container">
+            <h2 id="titleName"><i class="fa fa-play-circle"></i> Dil Bechara - Title Song</h2>
+            <div class="Album">
+                <div>Album/Movie</div>
+                <div> Artists</div>
+                <div>File Type</div>
+            </div>
+            <div class="title">
+                <div>Dil Bechara (2020) Mp3 Songs</div>
+                <div>AR Rahman, A R Rahman</div>
+                <div> mp3</div>
+            </div>
+            <div id="audioDiv">
+                <audio controls preload="none" class="audio">
+                    <source src="./SONGS/Dill.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div id="buttonDiv">
+                <button onclick="play()" class="button">Play &#9658;</button>
+                <button onclick="pause()" class="button">Pause &#10074;&#10074;</button>
+                <button onclick="resume()" class="button">Resume &#10074;&#9658; </button>
+                <button onclick="stop()" class="button">Stop <i class="fa fa-stop"></i></button>
+            </div>
+            <div id="saveButtonDiv">
+                <button class="favButton" id="FirstSaveBtn"><i class="fa fa-heart-o" id="heart"></i> Save</button>
+            </div>
+            <div id="downloadOption">
+                <a href="./SONGS/Dill.mp3" class="AnchorTag" download>Click Here To Download Dill Bechara</a>
+            </div>
+            <div>
+                <div id="DescriptionText">Description</div>
+                <p id="description">Download Dil Bechara - Title Song Mp3 Song by AR Rahman,
+                    in 190kbs & 320Kbps only on Pagalworld.
+                    From New Music Album "Dil Bechara (2020) Mp3 Songs".
+                    Free Download or listen online - in HD High Quality Audio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------- Second Audio Section -------------------------------------->
+    <section>
+        <div class="container">
+            <h2 id="anotherTitleName"><i class="fa fa-play-circle"></i> Bekhayali - Kabir Singh</h2>
+            <div class="Album">
+                <div>Album/Movie</div>
+                <div>Artists</div>
+                <div>File Type</div>
+            </div>
+            <div class="title">
+                <div>Kabir Singh (2019) Mp3 Songs</div>
+                <div>Sachet Tandon, Sachet Parampara</div>
+                <div>mp3</div>
+            </div>
+            <div id="anotherAudioDiv">
+                <audio controls preload="none" id="Audio2">
+                    <source src="./SONGS/Bekhayali.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div id="anotherButtonDiv">
+                <button onclick="playAnother()" class="button">Play &#9658;</button>
+                <button onclick="pauseAnother()" class="button">Pause &#10074;&#10074;</button>
+                <button onclick="resumeAnother()" class="button">Resume &#10074;&#9658; </button>
+                <button onclick="stopAnother()" class="button">Stop <i class="fa fa-stop"></i></button>
+            </div>
+            <div id="anotherSaveButtonDiv">
+                <button class="favButton" id="secondSaveBtn"><i class="fa fa-heart-o" id="heart"></i> Save</button>
+            </div>
+            <div id="anotherDownloadBtn">
+                <a href="./SONGS/Bekhayali.mp3" class="AnchorTag" download>Click Here To Download Bekhayali</a>
+            </div>
+            <div>
+                <div id="DescriptionText">Description</div>
+                <p id="description">Download Bekhayali - Title Song Mp3 Song by Sachet Tandon, in 190Kbps & 320kbps only
+                    on Pagalworld.
+                    From New Music Album "Bekhayali (2019) Mp3 Songs". Free Download or listen online - in HD High
+                    Quality Audio.</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./JS/index.js"></script>
+
+</html>
